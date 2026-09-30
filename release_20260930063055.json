@@ -1,0 +1,33 @@
+{
+  "build_number": "20260930063055",
+  "image_type": "application-only",
+  "shared_library": "SXCommandTokens 1.1.0",
+  "features": [
+    "Unified command tokens",
+    "get imei",
+    "get wifi mac",
+    "get ble mac"
+  ],
+  "files": [
+    {
+      "device": "Icebox",
+      "filename": "Icebox_FW11_HW1_20260930063055.bin",
+      "environment": "sx-c1",
+      "chip": "ESP32-S3",
+      "firmware_version": 11,
+      "hardware_version": 1,
+      "bytes": 1633504,
+      "sha256": "6bc16a47ec967b7ac808a1e97e526fbd148b1be3f957f9d69b8f3415044b965b"
+    },
+    {
+      "device": "H1",
+      "filename": "SX-H_FW1_HW2_20260930063055.bin",
+      "environment": "esp32dev",
+      "chip": "ESP32",
+      "firmware_version": 1,
+      "hardware_version": 2,
+      "bytes": 1182064,
+      "sha256": "9695e848818322e3485e8b5489721f91a81e593b0a844b4466852b158474fc91"
+    }
+  ]
+}
