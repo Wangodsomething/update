@@ -1,0 +1,31 @@
+{
+  "firmware": 1,
+  "hardware": 2,
+  "build": "20261013025740",
+  "filename": "sx-h_fw1_hw2_20261013025740.bin",
+  "size": 1187008,
+  "sha256": "d345c270f7f839af0056ec823dae5122c71b5f3db8fa3fae44c198af086a2abf",
+  "source_repository": "https://github.com/Wangodsomething/SX-H1-DUAL-1",
+  "source_branch": "started-working-with-ai",
+  "source_base_commit": "0e69bb36ef3f08a01642bfacf16800fe76037666",
+  "firmware_repository": "https://github.com/Wangodsomething/update",
+  "firmware_branch": "main",
+  "shared_library_archive": "sxcommandtokens_20261013025740.zip",
+  "shared_library_sha256": "0f5bcd6cce93704cd4779db59453b8a47034c1742e590260287332234b3ce750",
+  "deployment": "Application-only OTA; preserves filesystem and partition table",
+  "checks": [
+    "esp32dev and esp32dev_legacy builds",
+    "legacy OTA size check",
+    "SMS fault regression",
+    "LittleFS recovery and default configuration regression",
+    "storage regression",
+    "modem OTA regression",
+    "modem recovery regression: 36 passed"
+  ],
+  "features": [
+    "SMS failure AT stage, CMS/CME detail, elapsed time and cached modem state",
+    "LittleFS recovery commands",
+    "Active buzzer and corrected format defaults"
+  ],
+  "source_commit": "e675a4d51c5744104aba7da6d9cb30a96a164e47"
+}
