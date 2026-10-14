@@ -1,0 +1,26 @@
+{
+  "firmware": 1,
+  "hardware": 2,
+  "build": "20261014060630",
+  "filename": "sx-h_pdu_fw1_hw2_20261014060630.bin",
+  "size": 1192384,
+  "sha256": "cea6e9ba14c212be6298e8d16a6e14cabaafff513c59301a46d75e76a51c96f2",
+  "source_repository": "https://github.com/Wangodsomething/SX-H1-DUAL-1",
+  "source_branch": "codex/sms-pdu",
+  "source_commit": "82955d34e6e0b43a5d039e966c719092ceb8486d",
+  "firmware_repository": "https://github.com/Wangodsomething/update",
+  "firmware_branch": "codex/sms-pdu",
+  "shared_library_archive": "sxcommandtokens_pdu_20261014060630.zip",
+  "shared_library_sha256": "3435dcf1aee2356289d2655bc037a88348232b4f65d710f87bc97f26d0c9a766",
+  "deployment": "Application-only OTA; preserves filesystem and partition table",
+  "checks": [
+    "Six host regression suites passed for this source commit",
+    "esp32dev release build",
+    "Legacy OTA slot size check"
+  ],
+  "features": [
+    "Outbound PDU SMS",
+    "Persistent call and per-part SMS counters",
+    "Orderly restart flush of RAM records, counters and trusted time"
+  ]
+}
