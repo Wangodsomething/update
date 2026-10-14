@@ -1,0 +1,22 @@
+{
+  "firmware": 1,
+  "hardware": 2,
+  "build": "20261014045100",
+  "experiment": "Outbound PDU SMS; delivery fix not yet established",
+  "filename": "sx-h_pdu_fw1_hw2_20261014045100.bin",
+  "size": 1188720,
+  "sha256": "f31f25bbeada81f2c884c45f8dd6c91a6c5ac393bd565ca802f43af001f54b60",
+  "source_repository": "https://github.com/Wangodsomething/SX-H1-DUAL-1",
+  "source_branch": "codex/sms-pdu",
+  "source_commit": "46fadb5e0b77638279b91f831d042165a1034c9f",
+  "firmware_repository": "https://github.com/Wangodsomething/update",
+  "firmware_branch": "codex/sms-pdu",
+  "shared_library_archive": "sxcommandtokens_pdu_20261014045100.zip",
+  "shared_library_sha256": "3435dcf1aee2356289d2655bc037a88348232b4f65d710f87bc97f26d0c9a766",
+  "deployment": "Application-only OTA; preserves filesystem and partition table; not deployed",
+  "checks": [
+    "PDU SMS host regression passed for this source commit",
+    "esp32dev release build",
+    "Legacy OTA slot size check: 122000 bytes free"
+  ]
+}
