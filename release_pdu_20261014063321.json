@@ -1,0 +1,30 @@
+{
+  "firmware": 1,
+  "hardware": 2,
+  "build": "20261014063321",
+  "filename": "sx-h_pdu_fw1_hw2_20261014063321.bin",
+  "size": 1194848,
+  "sha256": "53d5e031485cd70382628194ae69ab09b5a64128be74c03becb17af52170dec9",
+  "source_repository": "https://github.com/Wangodsomething/SX-H1-DUAL-1",
+  "source_branch": "codex/sms-pdu",
+  "source_commit": "60e3639f72bfcc0e9e21aa4b59c7ac43babffd18",
+  "firmware_repository": "https://github.com/Wangodsomething/update",
+  "firmware_branch": "codex/sms-pdu",
+  "shared_library_archive": "sxcommandtokens_pdu_20261014063321.zip",
+  "shared_library_sha256": "3435dcf1aee2356289d2655bc037a88348232b4f65d710f87bc97f26d0c9a766",
+  "deployment": "Application-only OTA; preserves filesystem and partition table",
+  "checks": [
+    "SMS sender and diagnostic query regression",
+    "Actual A7670 numeric-error parser regression without raw debug",
+    "Modem recovery: 36 passed",
+    "Modem OTA regression",
+    "esp32dev release build",
+    "Legacy OTA size check"
+  ],
+  "features": [
+    "PDU SMS and persistent counters",
+    "CMEE=1 after modem initialization",
+    "Numeric CME/CMS recognition without raw AT debug",
+    "Read-only get sms configuration and registration diagnostics"
+  ]
+}
